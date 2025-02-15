@@ -18,7 +18,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt install -y build-essential autoconf libtool pkg-config \
-          git cmake curl unzip automake
+          git cmake curl unzip automake gettext
 
     - name: Install Android NDK
       run: |
